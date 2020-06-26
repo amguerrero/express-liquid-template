@@ -1,0 +1,19 @@
+{
+  "name": "express-liquid-template",
+  "version": "0.1.0",
+  "description": "Expres / Liquid Project Template",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon -r dotenv/config server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "liquidjs": "^9.14.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
