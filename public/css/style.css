@@ -1,7 +1,6 @@
 * {
   margin: 0 0;
   padding: 0 0;
-  /* height: 100%; */
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -13,8 +12,6 @@ body {
   grid-template-areas:
     "header header header header header"
     "...    nav    main   ...    ...";
-  margin: 0.3rem;
-  padding: 0.3rem;
   color: #207e77;
   grid-row-gap: 10px;
 }
@@ -35,8 +32,11 @@ header {
   color: white;
   font-size: xx-large;
   padding: 0.5rem;
+  width: 100%;
   display: grid;
   justify-items: center;
+  position: sticky;
+  top: 0;
 }
 
 header a {
@@ -69,5 +69,6 @@ nav a:hover {
 main {
   grid-area: main;
   padding: 0.5rem;
-  justify-self: center;
+  display: grid;
+  justify-items: center;
 }
